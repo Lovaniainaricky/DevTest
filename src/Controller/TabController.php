@@ -27,7 +27,7 @@ class TabController extends AbstractController
 
         // echo "<pre>";var_dump($data);echo "</pre>";die;
 
-        return $this->render('tableau.html.twig', [
+        return $this->render('base.html.twig', [
             'data' => $data,
         ]);
     }
